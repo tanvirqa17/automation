@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.27">
+    <testcase classname="User tests sample feature file" name="Test Scenario 1" time="0.071">
+        <system-out>
+            <![CDATA[Given This is sample step scenario 1 step 1.................................passed
+And This is sample step scenario 1 step 2...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="User tests sample feature file" name="Test Scenario 2" time="0.002">
+        <system-out>
+            <![CDATA[Given This is sample step scenario 2 step 1.................................passed
+And This is sample step scenario 2 step 2...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="User tests sample feature file" name="Test Scenario 3" time="0.005">
+        <system-out>
+            <![CDATA[Given This is sample step scenario 3 step 1.................................passed
+And This is sample step scenario 3 step 2...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="User tests sample feature file" name="Test Scenario 4" time="0.002">
+        <system-out>
+            <![CDATA[Given This is sample step scenario 4 step 1.................................passed
+And This is sample step scenario 4 step 2...................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
