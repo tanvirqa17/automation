@@ -1,31 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.27">
-    <testcase classname="User tests sample feature file" name="Test Scenario 1" time="0.071">
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="0.861">
+    <testcase classname="User tests sample feature file" name="Test Scenario 1" time="0.406">
         <system-out>
             <![CDATA[Given This is sample step scenario 1 step 1.................................passed
 And This is sample step scenario 1 step 2...................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="User tests sample feature file" name="Test Scenario 2" time="0.002">
-        <system-out>
+    <testcase classname="User tests sample feature file" name="Test Scenario 2" time="0.067">
+        <failure message="" type="java.lang.AssertionError">
             <![CDATA[Given This is sample step scenario 2 step 1.................................passed
-And This is sample step scenario 2 step 2...................................passed
+And This is sample step scenario 2 step 2...................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsSampleStepScenario2Step2(TestStepdefs.java:46)
+	at ✽.This is sample step scenario 2 step 2(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature.feature:11)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="User tests sample feature file" name="Test Scenario 3" time="0.005">
+    <testcase classname="User tests sample feature file" name="Test Scenario 3" time="0.067">
         <system-out>
             <![CDATA[Given This is sample step scenario 3 step 1.................................passed
 And This is sample step scenario 3 step 2...................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="User tests sample feature file" name="Test Scenario 4" time="0.002">
-        <system-out>
+    <testcase classname="User tests sample feature file" name="Test Scenario 4" time="0.093">
+        <failure message="" type="java.lang.AssertionError">
             <![CDATA[Given This is sample step scenario 4 step 1.................................passed
-And This is sample step scenario 4 step 2...................................passed
+And This is sample step scenario 4 step 2...................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsSampleStepScenario4Step2(TestStepdefs.java:66)
+	at ✽.This is sample step scenario 4 step 2(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature.feature:19)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>
