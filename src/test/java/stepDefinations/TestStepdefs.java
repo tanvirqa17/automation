@@ -104,7 +104,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 1")
-    public void thisIsStepForScenario1() {
+    public void thisIsStepForScenario1() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -113,7 +114,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 2")
-    public void thisIsStepForScenario2() {
+    public void thisIsStepForScenario2() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -122,7 +124,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 3")
-    public void thisIsStepForScenario3() {
+    public void thisIsStepForScenario3() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -131,7 +134,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 4")
-    public void thisIsStepForScenario4() {
+    public void thisIsStepForScenario4() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -140,7 +144,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 5")
-    public void thisIsStepForScenario5() {
+    public void thisIsStepForScenario5() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -149,7 +154,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 6")
-    public void thisIsStepForScenario6() {
+    public void thisIsStepForScenario6() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -158,7 +164,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 7")
-    public void thisIsStepForScenario7() {
+    public void thisIsStepForScenario7() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -167,7 +174,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 8")
-    public void thisIsStepForScenario8() {
+    public void thisIsStepForScenario8() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -176,7 +184,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 9")
-    public void thisIsStepForScenario9() {
+    public void thisIsStepForScenario9() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -185,7 +194,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 10")
-    public void thisIsStepForScenario10() {
+    public void thisIsStepForScenario10() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -194,7 +204,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 11")
-    public void thisIsStepForScenario11() {
+    public void thisIsStepForScenario11() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -203,7 +214,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 12")
-    public void thisIsStepForScenario12() {
+    public void thisIsStepForScenario12() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -212,7 +224,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 13")
-    public void thisIsStepForScenario13() {
+    public void thisIsStepForScenario13() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -221,7 +234,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 14")
-    public void thisIsStepForScenario14() {
+    public void thisIsStepForScenario14() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -230,7 +244,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 15")
-    public void thisIsStepForScenario15() {
+    public void thisIsStepForScenario15() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -239,7 +254,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 16")
-    public void thisIsStepForScenario16() {
+    public void thisIsStepForScenario16() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -248,7 +264,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 17")
-    public void thisIsStepForScenario17() {
+    public void thisIsStepForScenario17() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -257,7 +274,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 18")
-    public void thisIsStepForScenario18() {
+    public void thisIsStepForScenario18() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -266,7 +284,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 19")
-    public void thisIsStepForScenario19() {
+    public void thisIsStepForScenario19() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -275,7 +294,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 20")
-    public void thisIsStepForScenario20() {
+    public void thisIsStepForScenario20() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -284,7 +304,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 21")
-    public void thisIsStepForScenario21() {
+    public void thisIsStepForScenario21() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -293,7 +314,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 22")
-    public void thisIsStepForScenario22() {
+    public void thisIsStepForScenario22() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -302,7 +324,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 23")
-    public void thisIsStepForScenario23() {
+    public void thisIsStepForScenario23() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -311,7 +334,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 24")
-    public void thisIsStepForScenario24() {
+    public void thisIsStepForScenario24() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -320,7 +344,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 25")
-    public void thisIsStepForScenario25() {
+    public void thisIsStepForScenario25() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -329,7 +354,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 26")
-    public void thisIsStepForScenario26() {
+    public void thisIsStepForScenario26() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -338,7 +364,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 27")
-    public void thisIsStepForScenario27() {
+    public void thisIsStepForScenario27() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -347,7 +374,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 28")
-    public void thisIsStepForScenario28() {
+    public void thisIsStepForScenario28() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -356,7 +384,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 29")
-    public void thisIsStepForScenario29() {
+    public void thisIsStepForScenario29() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
@@ -365,7 +394,8 @@ public class TestStepdefs {
     }
 
     @Given("This is step for scenario 30")
-    public void thisIsStepForScenario30() {
+    public void thisIsStepForScenario30() throws InterruptedException {
+        Thread.sleep(2000);
         int select = random.nextInt(arr.length);
         if (arr[select].equalsIgnoreCase("PASSED")) {
             Assert.assertTrue(true);
