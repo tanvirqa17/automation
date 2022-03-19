@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RunCukes" time="0.189" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="RunCukes" time="0.541" tests="30" errors="0" skipped="0" failures="8">
   <properties>
-    <property name="idea.version" value="2021.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.2+9"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
@@ -26,27 +25,26 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\plugins\maven\lib\maven-event-listener.jar"/>
     <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.4\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\apache-maven-3.8.4\bin;C:\Program Files\apache-maven-3.8.4\bin;C:\Users\16467\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\bin;;C:\Users\16467\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\apache-maven-3.8.4\bin;C:\Program Files\apache-maven-3.8.4\bin;C:\Program Files\Git\cmd;C:\Users\16467\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\bin;;C:\Users\16467\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.4/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="maven.repo.local" value="C:\Users\16467\.m2\repository"/>
     <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.4\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\16467"/>
     <property name="user.timezone" value="America/New_York"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="file.encoding" value="Cp1252"/>
     <property name="java.specification.version" value="11"/>
     <property name="user.name" value="16467"/>
-    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\apache-maven-3.8.4\boot\plexus-classworlds.license"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3 -s C:\Users\16467\.m2\settings.xml -Dmaven.repo.local=C:\Users\16467\.m2\repository test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.2"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -54,6 +52,7 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="11.0.2"/>
     <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="maven.home" value="C:\Program Files\apache-maven-3.8.4"/>
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2019-01-15"/>
@@ -61,11 +60,186 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Test Scenario 1" classname="User tests sample feature file" time="0.159"/>
-  <testcase name="Test Scenario 2" classname="User tests sample feature file" time="0.011"/>
-  <testcase name="Test Scenario 3" classname="User tests sample feature file" time="0.011"/>
-  <testcase name="Test Scenario 4" classname="User tests sample feature file" time="0.008"/>
+  <testcase name="Test Scenario 1" classname="User tests sample feature file #2" time="0.221">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario1(TestStepdefs.java:112)
+	at ✽.This is step for scenario 1(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:6)
+</failure>
+    <system-out><![CDATA[
+@TestFeatureNew
+Scenario: Test Scenario 1           &amp#27;[90m# src/test/resources/features/testFeature_New.feature:5&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mThis is step for scenario 1&amp#27;[0m &amp#27;[90m# stepDefinations.TestStepdefs.thisIsStepForScenario1()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario1(TestStepdefs.java:112)
+	at âœ½.This is step for scenario 1(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:6)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="Test Scenario 2" classname="User tests sample feature file #2" time="0.016"/>
+  <testcase name="Test Scenario 3" classname="User tests sample feature file #2" time="0.012"/>
+  <testcase name="Test Scenario 4" classname="User tests sample feature file #2" time="0.015"/>
+  <testcase name="Test Scenario 5" classname="User tests sample feature file #2" time="0.012"/>
+  <testcase name="Test Scenario 6" classname="User tests sample feature file #2" time="0.015"/>
+  <testcase name="Test Scenario 7" classname="User tests sample feature file #2" time="0.016">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario7(TestStepdefs.java:166)
+	at ✽.This is step for scenario 7(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:24)
+</failure>
+    <system-out><![CDATA[
+@TestFeatureNew
+Scenario: Test Scenario 7           &amp#27;[90m# src/test/resources/features/testFeature_New.feature:23&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mThis is step for scenario 7&amp#27;[0m &amp#27;[90m# stepDefinations.TestStepdefs.thisIsStepForScenario7()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario7(TestStepdefs.java:166)
+	at âœ½.This is step for scenario 7(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:24)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Test Scenario 8" classname="User tests sample feature file #2" time="0.02"/>
+  <testcase name="Test Scenario 9" classname="User tests sample feature file #2" time="0.021"/>
+  <testcase name="Test Scenario 10" classname="User tests sample feature file #2" time="0.017"/>
+  <testcase name="Test Scenario 11" classname="User tests sample feature file #2" time="0.013"/>
+  <testcase name="Test Scenario 12" classname="User tests sample feature file #2" time="0.011">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario12(TestStepdefs.java:211)
+	at ✽.This is step for scenario 12(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:39)
+</failure>
+    <system-out><![CDATA[
+@TestFeatureNew
+Scenario: Test Scenario 12           &amp#27;[90m# src/test/resources/features/testFeature_New.feature:38&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mThis is step for scenario 12&amp#27;[0m &amp#27;[90m# stepDefinations.TestStepdefs.thisIsStepForScenario12()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario12(TestStepdefs.java:211)
+	at âœ½.This is step for scenario 12(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:39)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Test Scenario 13" classname="User tests sample feature file #2" time="0.01">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario13(TestStepdefs.java:220)
+	at ✽.This is step for scenario 13(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:42)
+</failure>
+    <system-out><![CDATA[
+@TestFeatureNew
+Scenario: Test Scenario 13           &amp#27;[90m# src/test/resources/features/testFeature_New.feature:41&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mThis is step for scenario 13&amp#27;[0m &amp#27;[90m# stepDefinations.TestStepdefs.thisIsStepForScenario13()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario13(TestStepdefs.java:220)
+	at âœ½.This is step for scenario 13(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:42)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Test Scenario 14" classname="User tests sample feature file #2" time="0.011"/>
+  <testcase name="Test Scenario 15" classname="User tests sample feature file #2" time="0.01">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario15(TestStepdefs.java:238)
+	at ✽.This is step for scenario 15(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:48)
+</failure>
+    <system-out><![CDATA[
+@TestFeatureNew
+Scenario: Test Scenario 15           &amp#27;[90m# src/test/resources/features/testFeature_New.feature:47&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mThis is step for scenario 15&amp#27;[0m &amp#27;[90m# stepDefinations.TestStepdefs.thisIsStepForScenario15()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario15(TestStepdefs.java:238)
+	at âœ½.This is step for scenario 15(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:48)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Test Scenario 16" classname="User tests sample feature file #2" time="0.009"/>
+  <testcase name="Test Scenario 17" classname="User tests sample feature file #2" time="0.01"/>
+  <testcase name="Test Scenario 18" classname="User tests sample feature file #2" time="0.008"/>
+  <testcase name="Test Scenario 19" classname="User tests sample feature file #2" time="0.009"/>
+  <testcase name="Test Scenario 20" classname="User tests sample feature file #2" time="0.006"/>
+  <testcase name="Test Scenario 21" classname="User tests sample feature file #2" time="0.011"/>
+  <testcase name="Test Scenario 22" classname="User tests sample feature file #2" time="0.008">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario22(TestStepdefs.java:301)
+	at ✽.This is step for scenario 22(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:69)
+</failure>
+    <system-out><![CDATA[
+@TestFeatureNew
+Scenario: Test Scenario 22           &amp#27;[90m# src/test/resources/features/testFeature_New.feature:68&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mThis is step for scenario 22&amp#27;[0m &amp#27;[90m# stepDefinations.TestStepdefs.thisIsStepForScenario22()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario22(TestStepdefs.java:301)
+	at âœ½.This is step for scenario 22(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:69)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Test Scenario 23" classname="User tests sample feature file #2" time="0.007"/>
+  <testcase name="Test Scenario 24" classname="User tests sample feature file #2" time="0.006"/>
+  <testcase name="Test Scenario 25" classname="User tests sample feature file #2" time="0.01">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario25(TestStepdefs.java:328)
+	at ✽.This is step for scenario 25(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:78)
+</failure>
+    <system-out><![CDATA[
+@TestFeatureNew
+Scenario: Test Scenario 25           &amp#27;[90m# src/test/resources/features/testFeature_New.feature:77&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mThis is step for scenario 25&amp#27;[0m &amp#27;[90m# stepDefinations.TestStepdefs.thisIsStepForScenario25()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario25(TestStepdefs.java:328)
+	at âœ½.This is step for scenario 25(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:78)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Test Scenario 26" classname="User tests sample feature file #2" time="0.008"/>
+  <testcase name="Test Scenario 27" classname="User tests sample feature file #2" time="0.01">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario27(TestStepdefs.java:346)
+	at ✽.This is step for scenario 27(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:84)
+</failure>
+    <system-out><![CDATA[
+@TestFeatureNew
+Scenario: Test Scenario 27           &amp#27;[90m# src/test/resources/features/testFeature_New.feature:83&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mThis is step for scenario 27&amp#27;[0m &amp#27;[90m# stepDefinations.TestStepdefs.thisIsStepForScenario27()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario27(TestStepdefs.java:346)
+	at âœ½.This is step for scenario 27(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:84)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Test Scenario 28" classname="User tests sample feature file #2" time="0.007"/>
+  <testcase name="Test Scenario 29" classname="User tests sample feature file #2" time="0.006"/>
+  <testcase name="Test Scenario 30" classname="User tests sample feature file #2" time="0.006"/>
 </testsuite>

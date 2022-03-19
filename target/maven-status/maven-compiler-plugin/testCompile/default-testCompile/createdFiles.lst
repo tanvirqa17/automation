@@ -1,2 +1,7 @@
+sendRESTRequest\RESTUtils.class
+domain\Event.class
 RunCukes.class
 stepDefinations\TestStepdefs.class
+domain\ScenarioEvent$ScenarioEventBuilder.class
+domain\Event$EventBuilder.class
+domain\ScenarioEvent.class

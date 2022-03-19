@@ -14,6 +14,7 @@ import sendRESTRequest.RESTUtils;
 
 import java.io.IOException;
 import java.time.Instant;
+import java.util.Random;
 
 
 public class TestStepdefs {
@@ -23,6 +24,10 @@ public class TestStepdefs {
     public static String scenarioStatus;
 
     public static RESTUtils restUtils = new RESTUtils();
+
+    String[] arr = {"PASSED", "FAILED"};
+    Random random = new Random();
+
 
     @Given("This is sample step scenario 1 step 1")
     public void thisIsSampleStepScenario1Step1() {
@@ -96,5 +101,275 @@ public class TestStepdefs {
         }
 
 
+    }
+
+    @Given("This is step for scenario 1")
+    public void thisIsStepForScenario1() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 2")
+    public void thisIsStepForScenario2() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 3")
+    public void thisIsStepForScenario3() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 4")
+    public void thisIsStepForScenario4() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 5")
+    public void thisIsStepForScenario5() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 6")
+    public void thisIsStepForScenario6() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 7")
+    public void thisIsStepForScenario7() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 8")
+    public void thisIsStepForScenario8() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 9")
+    public void thisIsStepForScenario9() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 10")
+    public void thisIsStepForScenario10() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 11")
+    public void thisIsStepForScenario11() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 12")
+    public void thisIsStepForScenario12() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 13")
+    public void thisIsStepForScenario13() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 14")
+    public void thisIsStepForScenario14() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 15")
+    public void thisIsStepForScenario15() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 16")
+    public void thisIsStepForScenario16() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 17")
+    public void thisIsStepForScenario17() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 18")
+    public void thisIsStepForScenario18() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 19")
+    public void thisIsStepForScenario19() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 20")
+    public void thisIsStepForScenario20() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 21")
+    public void thisIsStepForScenario21() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 22")
+    public void thisIsStepForScenario22() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 23")
+    public void thisIsStepForScenario23() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 24")
+    public void thisIsStepForScenario24() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 25")
+    public void thisIsStepForScenario25() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 26")
+    public void thisIsStepForScenario26() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 27")
+    public void thisIsStepForScenario27() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 28")
+    public void thisIsStepForScenario28() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 29")
+    public void thisIsStepForScenario29() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
+    }
+
+    @Given("This is step for scenario 30")
+    public void thisIsStepForScenario30() {
+        int select = random.nextInt(arr.length);
+        if (arr[select].equalsIgnoreCase("PASSED")) {
+            Assert.assertTrue(true);
+        } else if (arr[select].equalsIgnoreCase("FAILED"))
+            Assert.fail();
     }
 }

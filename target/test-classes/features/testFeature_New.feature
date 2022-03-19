@@ -1,4 +1,4 @@
-@TestFeature
+@TestFeatureNew
 
 Feature: User tests sample feature file
 

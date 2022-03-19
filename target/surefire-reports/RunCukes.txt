@@ -1,4 +1,60 @@
 -------------------------------------------------------------------------------
 Test set: RunCukes
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.756 sec - in RunCukes
+Tests run: 30, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 3.497 sec <<< FAILURE! - in RunCukes
+Test Scenario 1(User tests sample feature file #2)  Time elapsed: 0.221 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario1(TestStepdefs.java:112)
+	at ?.This is step for scenario 1(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:6)
+
+Test Scenario 7(User tests sample feature file #2)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario7(TestStepdefs.java:166)
+	at ?.This is step for scenario 7(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:24)
+
+Test Scenario 12(User tests sample feature file #2)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario12(TestStepdefs.java:211)
+	at ?.This is step for scenario 12(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:39)
+
+Test Scenario 13(User tests sample feature file #2)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario13(TestStepdefs.java:220)
+	at ?.This is step for scenario 13(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:42)
+
+Test Scenario 15(User tests sample feature file #2)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario15(TestStepdefs.java:238)
+	at ?.This is step for scenario 15(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:48)
+
+Test Scenario 22(User tests sample feature file #2)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario22(TestStepdefs.java:301)
+	at ?.This is step for scenario 22(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:69)
+
+Test Scenario 25(User tests sample feature file #2)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario25(TestStepdefs.java:328)
+	at ?.This is step for scenario 25(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:78)
+
+Test Scenario 27(User tests sample feature file #2)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefinations.TestStepdefs.thisIsStepForScenario27(TestStepdefs.java:346)
+	at ?.This is step for scenario 27(file:///C:/workplaces/test_automation_framework/src/test/resources/features/testFeature_New.feature:84)
+
