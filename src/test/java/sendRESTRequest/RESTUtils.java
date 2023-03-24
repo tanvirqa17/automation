@@ -28,7 +28,7 @@ public class RESTUtils {
 
         var response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
-        System.out.println(response.statusCode());
+        System.out.println("Status Code: " + response.statusCode());
     }
 
 }
